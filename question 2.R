@@ -8,7 +8,3 @@ size_mr_data <- data.frame(
                      200.830, 224.779, 148.940, 112.430, 286.847, 46.347, 142.863, 
                      106.670, 119.660, 104.150, 33.165, 4.900, 4.865))
 ggplot(data = size_mr_data, aes(x= body_mass, y = metabolic_rate)) + geom_line()
-
-
-ggplot(data = size_mr_data, aes(x= log10(body_mass), y = log10(metabolic_rate))) + geom_line()
-
