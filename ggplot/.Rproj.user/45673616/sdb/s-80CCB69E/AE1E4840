@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "size_data <- read.csv(\"data_2.txt\", header = TRUE, sep = \"\\t\", na.strings = c(\"-999\", \"-999.00\"))\n\nggplot(data = size_data, aes(x= F_mass)) + \n  labs(x = \"Female Mass(g)\") +\n  geom_histogram()\n  \n\n\n\n\n\nggplot(data = size_data, aes(x= F_mass)) + \n  labs(x = \"Female Mass(g)\") +\n  scale_x_log10()+\n  geom_histogram(fill = \"blue\")\n  \n\n\n\nggplot(data = size_data, aes(x= F_mass)) + \n  labs(x = \"Female Mass(g) vs Male Mass(g)\") +\n  scale_x_log10() +\n  geom_histogram(fill =\"blue\", alpha = 0.3)+\n  geom_histogram(aes(x = M_mass), alpha = 0.3)\n\nggplot(data = size_data, aes(x= F_mass)) + \n  labs(x = \"Female Mass(g) vs Male Mass(g)\") +\n  scale_x_log10() +\n  geom_histogram(fill =\"blue\", alpha = 0.3)+\n  geom_histogram(aes(x = M_mass), alpha = 0.3)+\n  facet_wrap(~ Family)\n\nggplot(data = size_data, aes(x= F_wing)) + \n  labs(x = \"Female Wing vs Male Wing\") +\n  scale_x_log10() +\n  geom_histogram(fill =\"blue\", alpha = 0.3)+\n  geom_histogram(aes(x = M_wing), alpha = 0.3)+\n  facet_wrap(~ Family)\n",
+    "created" : 1509394439119.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "889920876",
+    "id" : "AE1E4840",
+    "lastKnownWriteTime" : 1509396194,
+    "last_content_update" : 1509396194091,
+    "path" : "~/GitHub/ggplot-assignment-emily-cunningham/Question 4.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
