@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "size_mr_data <- data.frame(\n  body_mass = c(32000, 37800, 347000, 4200, 196500, 100000, 4290, \n                32000, 65000, 69125, 9600, 133300, 150000, 407000, 115000, \n                67000,325000, 21500, 58588, 65320, 85000, 135000, 20500, 1613,\n                1618),\n  metabolic_rate = c(49.984, 51.981, 306.770, 10.075, 230.073, \n                     148.949, 11.966, 46.414, 123.287, 106.663, 20.619, 180.150, \n                     200.830, 224.779, 148.940, 112.430, 286.847, 46.347, 142.863, \n                     106.670, 119.660, 104.150, 33.165, 4.900, 4.865))\nggplot(data = size_mr_data, aes(x= body_mass, y = metabolic_rate)) + geom_line()\n",
+    "created" : 1509390189307.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "441787387",
+    "id" : "EEB045DB",
+    "lastKnownWriteTime" : 1509390501,
+    "last_content_update" : 1509390501109,
+    "path" : "~/GitHub/ggplot-assignment-emily-cunningham/ggplot/question 2.R",
+    "project_path" : "question 2.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
