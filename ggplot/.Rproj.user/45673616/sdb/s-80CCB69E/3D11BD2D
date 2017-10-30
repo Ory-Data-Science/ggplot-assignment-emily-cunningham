@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "mammal_data <- read.csv(\"Mammal_lifehistories_v2.txt\", header = TRUE, sep = \"\\t\", na.strings = c(\"-999\", \"-999.00\"), nrows = 1440)\n\n\nggplot(data = mammal_data, aes(x= mass.g., y = newborn.g.)) + \n  labs(x = \"adult mass\", y = \"newborn mass\") +\n  geom_point()\n\nggplot(data = mammal_data, aes(x= mass.g., y = newborn.g.)) + \n  labs(x = \"adult mass\", y = \"newborn mass\") +\n  scale_x_log10() +\n  scale_y_log10() +\n  geom_point()\n\n\nggplot(data = mammal_data, aes(x= mass.g., y = newborn.g., color = order)) + \n  labs(x = \"adult mass\", y = \"newborn mass\") +\n  scale_x_log10() +\n  scale_y_log10() +\n  geom_point() +\n  \n  \n  \n  ggplot(data = mammal_data, aes(x= mass.g., y = newborn.g., color = order)) + \n  labs(x = \"adult mass\", y = \"newborn mass\") +\n  scale_x_log10() +\n  scale_y_log10() +\n  geom_point() + \n  facet_wrap(~ order)\n\nggplot(data = mammal_data, aes(x= mass.g., y = newborn.g., color = order)) + \n  labs(x = \"adult mass\", y = \"newborn mass\") +\n  scale_x_log10() +\n  scale_y_log10() +\n  geom_smooth(method = \"lm\") + \n  facet_wrap(~ order)",
+    "created" : 1509394405928.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2681366269",
+    "id" : "3D11BD2D",
+    "lastKnownWriteTime" : 1509394421,
+    "last_content_update" : 1509394421233,
+    "path" : "~/GitHub/ggplot-assignment-emily-cunningham/question 3.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
